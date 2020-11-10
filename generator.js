@@ -1,4 +1,6 @@
 module.exports = (api, options, rootOptions) => {
+  console.log("!!options", options);
+  console.log("!!rootOptions", rootOptions);
   api.extendPackage({
     scripts: {
       serve: "vue-cli-service serve",
